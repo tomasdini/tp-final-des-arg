@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../assets/imagenes/bandera2.png" type="png">
+    <title>Contacto - Descubrí Argentina</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--TIPOGRAFÍAS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+
+    <!--ÍCONOS REDES SOCIALES-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="container-fluid info">
+    <div class="row align-items-center">
+        <a href="../index.html" id="logo" class="col-lg-2">
+            <img src="../assets/imagenes/bandera2.png" alt="logo">
+        </a>
+
+        <h1 class="col-lg-8 text-center"><strong>Descubrí Argentina</strong></h1>
+
+        <div class="col-lg-2"></div>
+
+        <div class="col-12">
+            <div class="btn-group w-100 d-flex justify-content-center" id="menu-header">
+                <a href="../index.html" class="btn btn-outline-light">Inicio</a>
+                <a href="historia.html" class="btn btn-outline-light">Historia</a>
+                <a href="cultura.html" class="btn btn-outline-light">Cultura</a>
+                <a href="turismo.html" class="btn btn-outline-light">Turismo</a>
+                <a href="contacto.html" class="btn btn-outline-light">Contacto</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <h2 id="titulo-contacto"><em>Contacto</em></h2>
+
+    <div class="container d-flex justify-content-center">
+        <div id="form-box">
+            <form>
+                <label>Nombre:</label>
+                <input type="text" class="form-control">
+
+                <label>Correo electrónico:</label>
+                <input type="email" class="form-control">
+
+                <label>Teléfono:</label>
+                <input type="text" class="form-control">
+
+                <label>Asunto o mensaje:</label>
+                <textarea class="form-control" rows="4"></textarea>
+
+                <button type="submit" id="enviar-btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="menu-footer">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="cultura.html">Cultura</a></li>
+            <li><a href="turismo.html">Turismo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div id="logo-footer">
+        <img src="../assets/imagenes/bandera2.png" id="logo-footer__img" alt="logo">
+        <p id="logo-footer__text"><br></p>
+        <p id="logo-footer__copyright">
+            © 2025 Descubrí Argentina. <br> Todos los derechos reservados.
+        </p>
+    </div>
+
+    <div class="contactos">
+        <ul>
+            <li class="contactos__contacto">TELÉFONO:</li>
+            <li class="contactos__contacto">DIRECCIÓN:</li>
+            <li class="contactos__contacto">EMAIL:</li>
+
+            <div class="redes-sociales">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+header {
+  padding: 15px;
+  background-color: rgb(0, 195, 255);
+}
+
+#logo{
+  margin: auto auto 10px;
+  height: 50px;
+  width: auto;
+}
+#logo img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+header h1{
+  font-family: "Momo Signature", cursive;
+  color: white;
+}
+
+#menu-header{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Stack Sans Text", sans-serif;
+}
+
+
+
+main {
+    width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+
+    background: linear-gradient(to bottom, rgb(0, 195, 255), white, white, white, rgb(0, 195, 255));
+    padding: 120px 0;
+    text-align: center;
+}
+
+#titulo-contacto {
+    font-size: 55px;
+    font-family: "Stack Sans Text", sans-serif;
+    margin-bottom: 60px;
+}
+
+
+#form-box {
+    background-color: #d3ecff;
+    padding: 40px;
+    border-radius: 15px;
+    width: 60%;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+#form-box label {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#enviar-btn {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #2b5773;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+
+
+
+footer{
+  background-color: rgb(0, 195, 255);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    'menu logo contactos';
+  align-items: center;
+  padding: 40px 60px;
+  color: white;
+  font-family: "Stack Sans Text", sans-serif;
+}
+    
+.menu-footer{
+  grid-area: menu;
+  font-size: 15px;
+  gap: 3px;
+}
+    
+#logo-footer{
+  grid-area: logo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    
+#logo-footer__img{
+  height: 100px;
+  width: auto;
+}
+    
+#logo-footer__text{
+  font-size: 20px;
+  text-align: center;
+}
+    
+#logo-footer__copyright{
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: center;
+}
+    
+.contactos{
+  grid-area: contactos;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    
+.menu-footer ul,
+.contactos ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+    
+.redes-sociales{
+  grid-area: redes;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+    
+.redes-sociales a{
+  color: white;
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+    
+.redes-sociales a:hover{
+  transform: scale(1.2);
+  color: rgb(104, 220, 255);
+}
+    
+footer a{
+  color: white;
+  text-decoration: none;
+}
+    
+footer a:hover{
+  text-decoration: underline;
+}
+    
+  
+  
+  /*TIPOGRAFÍAS*/
+.stack-sans-text-titulo {
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
